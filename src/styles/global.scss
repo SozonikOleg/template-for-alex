@@ -1,0 +1,16 @@
+@import "./variables";
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
